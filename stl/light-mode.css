@@ -1,0 +1,20 @@
+*{color: #000;}
+#body{
+    background: #cfcfcf;
+}.navlink:hover{
+    background-color: #adadadbb;
+}.nav{background: #c0c0c0;}#intro{
+    background-image: url("../img/light-shaddow-bg.jpg");
+}
+.hsector{
+    background: #a0a0a0;
+}.mnavlink:hover,.mnavlink:focus{
+    background-color: #5a5a5ab2;
+}.mnav{    background-color: #8f8f8f;}.imgDis{
+    background-color: #8f8f8f;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25), inset 0px 1px 3px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.03); 
+}
+#dmodeWapper button{background: #616161ea;}
+#dmodeWapper button:hover{
+    background: #838383ea;
+}

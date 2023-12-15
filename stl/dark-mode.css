@@ -1,0 +1,21 @@
+*{color: #fff;}
+#body{
+    background: #242424;
+}.navlink:hover{
+    background-color: #969696;
+}.nav{background: #161616;}#intro{
+    background-image: url("../img/shaddow-bg.jpg");
+}
+.hsector{
+    background: #4e4e4e;
+}.mnavlink:hover,.mnavlink:focus{
+    background-color: #969696;
+}.mnav{    background-color: #161616;}
+.imgDis{
+    background-color: #4e4e4e;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25), inset 0px 1px 3px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.03); 
+}
+#dmodeWapper button{background: #1b1b1bea;}
+#dmodeWapper button:hover{
+    background: #131313ea;
+}

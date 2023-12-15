@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Labib Rayan</title>
+        <link rel="stylesheet" href="./stl/style.css">
+        <link rel="stylesheet" href="./stl/dark-mode.css" id="mode">
+        <!-- <link rel="stylesheet" href="./stl/light-mode.css"> -->
+    </head>
+<body  id="body">
+    <div id="dmodeWapper">
+        <button id="modeButton" onclick="modecheaker()">Turn off Dark Mode</button>
+    </div>
+    <!-- Navbar Mobile -->
+    <div class="mnav">
+        <a href="#photos" id="photoslink" class="mnavlink">Photos
+        </a>
+        <a href="#contact" id="contactlink" class="mnavlink">Contact
+        </a>
+        <a href="#friends" id="friendslink" class="mnavlink">Friends
+        </a>
+        <a href="#about" id="aboutlink" class="mnavlink">About
+        </a>
+        </div>
+    <!-- Navbar Mobile -->
+    <!-- NavBar Desktop -->
+    <div class="nav">
+        <div style="background-image: url(./img/shaddow.png);background-size: cover;"></div>
+        <a href="#photos" id="photoslink"  class=" navlink"><img class="navimg" src="./img/ico/photos.png" alt=""><br>Photos</a>
+        <a href="#friends" id="friendslink" class="navlink"><img class="navimg" src="./img/ico/friends.png" alt=""><br>Friends</a>
+        <a href="#contact" id="contactlink" class="navlink"><img class="navimg" src="./img/ico/contact.png" alt=""><br>Contact</a>
+        <a href="#about" id="aboutlink" class="navlink"><img class="navimg" src="./img/ico/about.png" alt=""><br>About</a>
+    </div>
+    <!-- NavBar Desktop -->
+    <!-- Main Content -->
+    <div class="main" id="main">
+        <div id="intro">
+            <div id="introducer">
+                Labib Rayan.
+            </div>
+            <br>
+            <div id="highlighter"></div>
+        </div>
+        <div class="hsector" id="photos">
+            <h2>Photos</h2>
+            <div id="imgDisplay"></div>
+        </div>
+        <div class="hsector" id="friends">
+            <h2>Friends</h2>
+            <div id="friendList"></div>
+        </div>
+        <div class="hsector" id="contact">
+            <h2>Contact</h2>
+            <a href="mailto:pickcloudlrayan@gmail.com">
+                <img src="./img/ico/mail.png" alt="">
+            </a>
+            <a href="http://facebook.com/labibrayan666">
+                <img src="./img/ico/fb.png" alt="">
+            </a>
+            <a href="http://instagram.com/_labibrayan">
+                <img src="./img/ico/ig.png" alt="">
+            </a>
+        </div>
+        <div class="hsector" id="about">
+            <h2>About</h2>
+            <p>
+                Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.Some text about me.
+            </p>
+        </div>
+    </div>
+    <input type="hidden" id="hiddenInp">
+    <input type="hidden" id="hiddenInp2">
+    <input type="hidden" id="hiddenInp3">
+    <input type="hidden" id="hiddenInp4">
+    <input type="hidden" id="hiddenInp5" value="1">
+    <!-- Main Content -->
+    <script src="./scrp/style.js"></script>
+    <script src="./scrp/index.js"></script>
+</body>
+</html>

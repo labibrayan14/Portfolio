@@ -1,0 +1,132 @@
+*{
+    text-align: center;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all ease-in-out 250ms;
+}
+#body::-webkit-scrollbar{
+    width: 50px;
+}
+#body{
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    "a main  main main main main main main main "
+}
+
+.navlink{
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+}
+
+.navimg{
+    width: 90px;
+    border-radius: 2px;
+}
+.nav{
+    margin: 0;padding: 0;
+    display: grid;
+    text-align: center;
+    grid-area: a;
+    background: #161616;
+}
+.main{
+    grid-area: main;
+    overflow:auto;
+    margin: 10px;
+}
+.main::-webkit-scrollbar{
+    display:none;
+}
+#intro{
+    padding: 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#introducer{
+    font-size: 50px;
+}
+#highlighter{
+    font-size: 25px;
+}
+.hsector{
+    border-top:none ;
+    border-radius: 5px;
+    margin: 2% 0%;
+    padding: 1% 5%;
+    background: #1f1f1f;
+}
+.hsector h2{
+    text-align: left;
+}
+.hsector p{
+    text-align: left;
+    font-size: 15px;
+}
+.mnavlink{
+    text-decoration: none;
+    padding: 2%;
+}
+
+.mnav{
+    display:none;
+    background: fixed;
+
+    padding: 3%;
+}
+.imgDis{
+    margin: 10px;
+    height: 175px;
+    width: min-content;
+    -webkit-user-drag: none;
+    padding: 10px;
+    
+    transition: scale ease-in-out 100ms;
+}
+.imgDis:focus,.imgDis:hover{
+    scale: 1.5;
+}
+@media(max-width:600px){
+    .imgDis{
+        height: min-content;
+        width: 200px;
+    }
+}
+@media(max-width:425px){
+    #body{
+        display: block;
+    }#intro{
+        padding: 25px;
+    }
+    #introducer{
+        font-size: 25px;
+        padding: 0px;
+    }
+    .mnav{
+        display :block;
+    }
+    .nav{
+        display:none;
+    }
+    .main{
+        margin: 0px 10px 10px 10px;
+    }#highlighter{
+        font-size: 15px;
+    }
+}
+.flist{
+    text-align:left;
+    margin: 10px;
+}
+#dmodeWapper button{
+    
+    border: none;
+    padding: 25px;
+    position: fixed;
+    right: 2%;
+    border-radius: 50px;
+    bottom: 2%;
+    transition: background ease-in-out 100ms;
+}
